@@ -81,10 +81,11 @@ Licence URI: https://www.os-templates.com/template-terms
 <button class="w3-button btn w3-xlarge" style="position: fixed; top: 30px; left:20px;" onclick="w3_open()">☰</button>
 <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none; height:100%;top: 0px;" id="mySidebar">
   <button onclick="w3_close()" style="color: black;" class="w3-bar-item w3-large">Close &times;</button>
-  <a href="#" class="w3-bar-item w3-button" style="color: black;">Pres 'slide' 1</a>
-  <a href="#" class="w3-bar-item w3-button" style="color: black;">Pres 'slide' 3</a>
-  <a href="#" class="w3-bar-item w3-button" style="color: black;">Pres 'slide' 4</a>
-  <a href="#" class="w3-bar-item w3-button" style="color: black;">Pres 'slide' 2</a>
+  <a href="#1wrapper" class="w3-bar-item w3-button" style="color: black;">1</a>
+  <a href="#2wrapper" class="w3-bar-item w3-button" style="color: black;">2</a>
+  <a href="#3wrapper" class="w3-bar-item w3-button" style="color: black;">3</a>
+  <a href="#4wrapper" class="w3-bar-item w3-button" style="color: black;">4</a>
+  <a href="#socials" class="w3-bar-item w3-button" style="color: black;">Nuestros Socials</a>
 </div>
 
 <script>
@@ -154,7 +155,7 @@ function w3_close() {
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<div class="wrapper row3">
+<div class="wrapper row3" id="1wrapper">
   <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
@@ -210,7 +211,7 @@ function w3_close() {
   </main>
 </div>
 
-<div class="wrapper row3 ">
+<div class="wrapper row3" id="2wrapper">
   <main class="hoc container clear"> <!--################################################################################################ -->
     <div class="posts">
       <figure class="group">
@@ -229,7 +230,7 @@ function w3_close() {
 <!-- ################################################################################################ -->
 
 <!-- ################################################################################################ -->
-<div class="wrapper row3 parallax2">
+<div class="wrapper row3 parallax2" id="3wrapper">
   <main class="hoc container clear"> <!--################################################################################################ -->
     <div class="posts">
       <figure class="group">
@@ -245,7 +246,7 @@ function w3_close() {
   </main>
 </div>
 <!-- ################################################################################################ -->
-<div class="wrapper row3">
+<div class="wrapper row3" id="4wrapper">
   <main class="hoc container clear"> <!--################################################################################################ -->
     <div class="posts">
       <figure class="group">
@@ -314,7 +315,7 @@ function w3_close() {
   <footer id="footer" class="hoc clear">
     <div class="center btmspace-50"> 
       <!-- ################################################################################################ -->
-      <h6 class="heading">Centro José Vasconcelos</h6>
+      <h6 class="heading" id="socials">Centro José Vasconcelos</h6>
       <ul class="faico clear">
         <li><a class="faicon-dribble" href="#"><i class="fab fa-dribbble"></i></a></li>
         <li><a class="faicon-facebook" href="#"><i class="fab fa-facebook"></i></a></li>
